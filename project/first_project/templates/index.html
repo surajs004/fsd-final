@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>BIO-DATA</title>
+  </head>
+  <body>
+    <h2><center><strong> BIO-DATA </strong></center></h2>
+    <figure>
+     
+      <img src="{% static 'My Image.png' %}" alt="Profile Picture">
+    </figure>
+    &emsp;<strong>Pratheeksha Prathap </strong><br />
+    &emsp;Alappuzha, Kerala-690511 <br />
+    &emsp;pratheekshatheprathap@gmail.com<br />
+    &emsp;09526658522
+    <hr />
+    <h3> &emsp;PROFESSIONAL SUMMARY </h3>
+    <p> &emsp;Currently pursuing MTech in Computer Science and Engineering from Amrita
+        Vishwa Vidyapeetham and also a MSc Computer Science Graduate.<br /> &emsp;Very much
+        hardworking and driven to work quickly and effectively on projects in all types of
+        environments.
+    </p>
+    <hr />
+    <h3> &emsp;EDUCATION </h3>
+    <table border="1">
+      <tr>
+        <th>Qualification</th>
+        <th>University</th>
+        <th>Percentage</th>
+        <th>Year of Passing</th>
+      </tr>
+      <tr>
+        <td>MTech CSE</td>
+        <td>Amrita University</td>
+        <td>---</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>MSc Computer Science</td>
+        <td>MG University</td>
+        <td>87</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>BSc Computer Science</td>
+        <td>Kerala University</td>
+        <td>84</td>
+        <td>2018</td>
+      </tr>
+    </table>
+    &emsp;<hr />
+    <h3>&emsp;TECHNICAL SKILL</h3>
+    <ul>
+      <li>Basic Knowledge in Python, Java and C++</li>
+      <li>Basic Knowledge in Computer Networking</li>
+      <li>Basic Knowledge in Machine Learning</li>
+      <li>Basic Knowledge in SQL Queries</li>
+    </ul>
+    <hr />
+    <h1 class="heading"> My Projects </h1>
+    <div class="project">
+
+<ul>
+
+    <li>
+
+        <a href="{% url 'tictactoe' %}">Tic-Tac-Toe</a>
+
+        </li>
+
+        <li>
+
+        <a href="{% url 'wordle' %}">Wordle</a>
+
+        </li>
+
+</ul> 
+  </body>
+</html>
